@@ -13,12 +13,12 @@ public class Client {
 
         try (Socket socket = new Socket(serverAddress, portNumber);
              PrintWriter out = new PrintWriter(socket.getOutputStream(), true);
-             BufferedReader in = new BufferedReader(new InputStreamReader(socket.getInputStream()))) {
+             BufferedReader in = new BufferedReader(new InputStreamReader(System.in))) {
 
-/*           String line;
+             String line = "hello";
             while((line = in.readLine()) != null){
-                System.out.println(out);
-            }*/
+                System.out.println(line);
+            }
             //String response = in.readLine();
             out.println("SÓ FUNCIONA UMA VEZ. TENTE MELHORAR, POR FAVOR.");
 
