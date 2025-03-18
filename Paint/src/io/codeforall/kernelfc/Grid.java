@@ -6,9 +6,9 @@ import org.academiadecodigo.simplegraphics.pictures.Picture;
 
 public class Grid {
     private static final int CELL_SIZE = 50;
-    private static final int COLS = 20;
-    private static final int ROWS = 20;
-    private static final int PADDING = 10;
+    public static final int COLS = 15;
+    public static final int ROWS = 15;
+    public static final int PADDING = 10;
     private Cursor cursor;
 
     public Grid() {
