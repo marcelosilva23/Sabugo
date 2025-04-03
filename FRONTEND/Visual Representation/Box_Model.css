@@ -1,46 +1,82 @@
-.box {
-    background-color: yellowgreen;
-    padding: 80px;
-    width: 50px;
-    border: 5px solid brown;
-    margin: 20px;
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: white;
+    color: white;
 }
 
-.box{
-    color: black;
+h1 {
+    margin-bottom: 20px;
+}
+
+.container {
     display: inline-block;
 }
 
 .margin {
     background-color: orange;
-    padding: 5px;
+    padding: 10px;
     display: inline-block;
+    margin: 10px;
+}
+
+h2 {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.box {
+    background-color: yellowgreen;
+    padding: 20px;
+    width: 100px;
+    height: 80px;
+    border: 5px solid brown;
+    margin: 10px;
+    overflow: visible;
+}
+
+.content {
+    background-color: green;
+    color: white;
+    padding: 5px;
+    border: 2px solid black;
+    width: 120px;
+}
+
+.visible {
+    overflow: visible;
+}
+
+.hidden {
+    overflow: hidden;
+}
+
+.scroll {
+    overflow: scroll;
 }
 
 .legend {
-    display: block;
-    margin-left: 300px;
-    margin-top: -25px;
+    margin-top: 20px;
 }
 
 .legend div {
-    display: inline;
+    display: inline-block;
     padding: 5px 10px;
-    font-size: 16px;
-    margin: 1px;
+    font-size: 14px;
+    margin: 5px;
 }
 
 .padding {
-    background-color: pink;
+    background-color: green;
     color: white;
 }
 
 .border {
-    border: 2px solid brown;
+    border: 2px solid white;
     color: black;
 }
 
 .margin-box {
-    background-color: rebeccapurple;
-    color: whitesmoke;
+    background-color: brown;
+    color: white;
 }

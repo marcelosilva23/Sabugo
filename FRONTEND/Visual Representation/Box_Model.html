@@ -1,21 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="Box_Model.css">
-    <title>Document</title>
+    <title>CSS Box Model - Overflow</title>
 </head>
-
 <body>
-    <h1>CSS BOX MODEL <br>
-        (Overflow: Visible)</h1>
-    <br>
 
-    <div class="margin">
-        <div class="box">
-            <div class="Content1">This is content that overflows </div> 
+    <h1>CSS Box Model <br> (Handling Overflow)</h1>
+
+    <div class="container">
+        <!-- Overflow: visible -->
+        <div class="margin">
+            <h2>Overflow: Visible</h2>
+            <div class="box visible">
+                <div class="content">This is content that overflows</div> 
+            </div>
+        </div>
+
+        <!-- Overflow: hidden -->
+        <div class="margin">
+            <h2>Overflow: Hidden</h2>
+            <div class="box hidden">
+                <div class="content">This is content that overflows</div> 
+            </div>
+        </div>
+
+        <!-- Overflow: scroll -->
+        <div class="margin">
+            <h2>Overflow: Scroll</h2>
+            <div class="box scroll">
+                <div class="content">This is content that overflows</div> 
+            </div>
         </div>
     </div>
 
@@ -26,5 +43,4 @@
     </div>
 
 </body>
-
 </html>
