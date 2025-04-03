@@ -1,0 +1,46 @@
+.box {
+    background-color: yellowgreen;
+    padding: 80px;
+    width: 50px;
+    border: 5px solid brown;
+    margin: 20px;
+}
+
+.box{
+    color: black;
+    display: inline-block;
+}
+
+.margin {
+    background-color: orange;
+    padding: 5px;
+    display: inline-block;
+}
+
+.legend {
+    display: block;
+    margin-left: 300px;
+    margin-top: -25px;
+}
+
+.legend div {
+    display: inline;
+    padding: 5px 10px;
+    font-size: 16px;
+    margin: 1px;
+}
+
+.padding {
+    background-color: pink;
+    color: white;
+}
+
+.border {
+    border: 2px solid brown;
+    color: black;
+}
+
+.margin-box {
+    background-color: rebeccapurple;
+    color: whitesmoke;
+}
