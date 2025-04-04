@@ -57,6 +57,7 @@ h2 {
 
 .legend {
     margin-top: 20px;
+    display: inline-block;
 }
 
 .legend div {
